@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/BaseW/wasm-playground"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "wasm-playground": "file:./pkg"
   },
