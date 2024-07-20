@@ -7,6 +7,10 @@
     "build": "webpack --config webpack.config.js",
     "serve": "webpack serve --config webpack.config.js --open"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BaseW/wasm-playground"
+  },
   "dependencies": {
     "wasm-playground": "file:./pkg"
   },
