@@ -1,5 +1,5 @@
 {
-  "name": "my-wasm-package",
+  "name": "@basew/my-wasm-package",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
