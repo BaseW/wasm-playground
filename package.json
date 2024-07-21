@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "serve": "webpack serve --config webpack.config.js --open"
+    "build:wasm": "wasm-pack build --target bundler",
+    "build": "pnpm build:wasm && webpack --config webpack.config.js",
+    "serve": "pnpm build:wasm && webpack serve --config webpack.config.js --open"
   },
   "repository": {
     "type": "git",
